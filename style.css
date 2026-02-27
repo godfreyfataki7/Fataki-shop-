@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid red;
+    width: 100%;
+}
+
+/* kuweka Jina liwe juu ya Menu */
+.brand-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav-links a {
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+main {
+    line-height: 1.6;
+}
+.h {
+    text-align: center;
+}
+
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
